@@ -26,22 +26,5 @@
         </div>
         <div class="shadow"></div>
     </div>
-
-    <!-- jQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $(".container").mouseenter(function(){
-                $(".card").stop().animate({
-                    top:"-90px"
-                }, "slow");
-            }).mouseleave(function(){
-                $(".card").stop().animate({
-                    top: "5px"  // Reset to the original position
-                }, "slow");
-            });
-        });
-    </script>
 </body>
 </html>
